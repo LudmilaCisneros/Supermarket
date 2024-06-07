@@ -8,7 +8,6 @@ public class PorKilos extends Product{
 
     @Override
     public String toString() {
-        return "Nombre: "+this.name+" /// "+"Precio: $"+this.price+" /// "+"Unidad de venta: kilo";
-        //Nombre: Frutillas /// Precio: $64 /// Unidad de venta: kilo
+        return "Nombre: " + this.name + " /// " + "Precio: $" + this.price + " /// " + "Unidad de venta: kilo";
     }
 }
